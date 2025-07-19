@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>مركز الخدمة الكهربائية لزينة السيارات </title>
+<title>مركز الخدمة الكهربائية لزينة السيارات</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
@@ -41,6 +41,12 @@
 
   .icon:hover {
     transform: scale(1.1);
+  }
+
+  .icon-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
   }
 
   .buttons {
@@ -109,8 +115,17 @@
 <body>
   <div class="container">
     <div class="icons">
-      <img src="https://i.imgur.com/cZ6Sjp1.png" alt="واتس اب" class="icon" title="واتس اب" />
-      <img src="https://i.imgur.com/snapchat-icon.png" alt="سناب شات" class="icon" title="سناب شات" />
+      <!-- شعار واتساب -->
+      <div>
+        <img src="https://i.imgur.com/cZ6Sjp1.png" alt="واتس اب" class="icon" title="واتس اب" />
+        <div class="icon-text">واتس اب</div>
+      </div>
+
+      <!-- شعار سناب شات -->
+      <div>
+        <img src="https://i.imgur.com/snapchat-icon.png" alt="سناب شات" class="icon" title="سناب شات" />
+        <div class="icon-text">سناب شات</div>
+      </div>
     </div>
     <div class="buttons">
       <button onclick="window.open('https://wa.me/+966554316070', '_blank')"> تواصل واتس اب </button>
@@ -119,3 +134,4 @@
   </div>
 </body>
 </html>
+
